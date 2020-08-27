@@ -1,0 +1,225 @@
+body {
+	background-color: #D3D3D3;
+}
+
+.navbar-brand {
+	padding: 15px;
+	font-size: 2.8em;
+}
+
+.navbar-brand {
+	padding: 20px;
+
+}
+
+#main-content {
+	margin-bottom: 50px;
+}
+
+
+#navigation-header {
+	background-color: #ffb3b3;
+	width: 100%;
+}
+
+#nav-list a {
+	color: #000000;
+	padding: 10px;
+}
+
+.icon-bar {
+	display: block;
+	width: 35px;
+	background-color: #555;
+}
+
+#icon-bar-1 {
+	margin-top: -28px;
+	position: absolute;
+}
+
+#icon-bar-2 {
+	margin-bottom: -17px;
+}
+
+#icon-bar-3 {
+	margin-bottom: 14px;
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#data-content {
+	padding: 10px;
+	background-color: #61122f;
+	color: #ffffff;
+}
+
+#data-content {
+	padding: 50px;
+}
+
+#menu-button {
+	height: 50px;
+	position: relative;
+	margin-top: 25px;
+	margin-right: 10px;
+	float: right;
+}
+
+#menu-button:select {
+	background-color: #000;
+}
+
+@media (min-width: 1200px){
+	#data-content {
+	width: 90%;
+		margin: 5px;
+		justify-content: center;
+		vertical-align: middle;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	#data-content {
+		font-size: 1.6em;
+	}
+
+	#menu-title {
+		padding: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	#data-content p {
+		font-size: 1.2em;
+		justify-content: center;
+		vertical-align: middle;
+	}
+
+	#nav-list a {
+		font-size: 1.5em;
+	}
+
+  #item-chicken {
+  	line-height: 90%;
+  	margin-top: 10px;
+  }
+
+  #item-beef {
+  	line-height: 1%;
+  }
+
+  #item-sushi {
+  	line-height: 70%;
+  	padding: 5px;
+  	margin-bottom: 5px;
+  }
+
+	#collapsable-nav {
+		width: 100%;
+  background-color: #fba898;
+  margin: 0;
+  padding: 0;
+  border: 2px solid #ffffff;
+	}
+
+	#main-header {
+		font-size: 5vw;
+	}
+
+	#menu-button {
+		margin-top: 9px;
+	}
+
+   hr {
+  	background-color: #ffffff;
+  	height: 2px;
+  }
+}
+
+@media (max-width: 767px){
+	#data-content {
+		width: 70%;
+		margin: 5px;
+		justify-content: center;
+		vertical-align: middle;
+	}
+
+	#collapsable-nav {
+		width: 100%;
+  background-color: #fba898;
+  margin: 0;
+  padding: 0;
+  border: 2px solid #ffffff;
+	}
+
+	#nav-list a {
+		font-size: 1.5em;
+	}
+
+  #item-chicken {
+  	line-height: 90%;
+  	margin-top: 10px;
+  }
+
+  #item-beef {
+  	line-height: 1%;
+  }
+
+  #item-sushi {
+  	line-height: 70%;
+  	padding: 5px;
+  	margin-bottom: 5px;
+  }
+
+  #main-header {
+  	font-size: 8vw;
+  }
+
+   hr {
+  	background-color: #ffffff;
+  	height: 2px;
+  }
+
+  @media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 2vw;
+  }
+  /* End Header */
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+}
+
+#menu-button {
+	margin-top: 10px;
+}
+}
